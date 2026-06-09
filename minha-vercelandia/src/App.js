@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { useEffect, useRef, useState } from "react";
-import "./Israel.css";
-// import fotoIsrael from "../assets/israel.jpg"; // descomente quando tiver sua foto
+import "./App.css";
+import fotoIsrael from "../assets/israel.jpg";
 
 /* ── Ícones SVG inline ── */
 const IconGitHub = () => (
