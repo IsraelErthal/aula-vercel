@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import { useEffect, useRef, useState } from "react";
-import "./App.css";
+import { useEffect, useState } from "react";
+import "/.App.css"
 import fotoIsrael from "../assets/israel.jpg";
 
 /* ── Ícones SVG inline ── */
@@ -91,9 +91,7 @@ export default function Israel() {
         <header className="isr-hero">
           <div className="isr-avatar-ring">
             <div className="isr-avatar-inner">
-              {/* Com foto: descomente abaixo e comente o fallback */}
-              {/* <img src={fotoIsrael} alt="Foto de Israel Erthal" /> */}
-              <div className="isr-avatar-initial">IE</div>
+              { <img src={fotoIsrael} alt="Foto de Israel Erthal" />}
             </div>
           </div>
 
